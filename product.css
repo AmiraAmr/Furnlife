@@ -1,0 +1,679 @@
+/**PRODUCT**/
+
+
+/*UPPERCASSES*/
+.furnilife h6,
+.navbar .dropdown h5,
+.navbar li,
+.description .topics h4,
+.footer .btn,
+.footer .row>div:not(:first-child) h5:first-child
+{text-transform: uppercase}
+
+/*Capitalize*/
+.sale .btn,
+.welcome h6,
+.welcome .dropdown li,
+.navbar .dropdown .dropdown-menu li,
+.view,
+.view .btn,
+.descriptions .content #reviews h3,
+.descriptions .content #reviews .write>*,
+.descriptions .content #comments>*,
+.descriptions .content #comments .discuss input,
+.descriptions .content #chart,
+.related .item .cont,
+.related .item .disc,
+.related h3,
+.footer
+{text-transform: capitalize}
+
+/*Theme color*/
+.toTop,
+.welcome .dropdown li:hover,
+.welcome .open button span,
+.welcome .dropdown button:hover,
+.furnilife .c,
+.navbar .dropdown .dropdown-menu li:hover,
+.navbar .navbar-right li>a:hover,
+.navbar .navbar-right li>a.active,
+.navbar .navbar-right .dropdown .btn i:hover,
+.navbar ifa-search:hover,
+.breadcrumb .breadcrumb-item:first-child a,
+.view .discr .stars>h5,
+.view .discr h2:nth-of-type(2),
+.view .fa-heart:hover,
+.descriptions .content #comments .fa-heart:hover,
+.view .browse:hover,
+.view .fas.fa-heart,
+.descriptions .content #comments .fas.fa-heart,
+.descriptions .content #reviews h5:nth-child(3):hover,
+.related .item .cont h4:last-child,
+.related .item i.fa-heart:hover,
+.related .item i.fas.fa-heart,
+.footer i.fa-home,
+.footer .info h5:not(:first-child):hover,
+.footer .account h5:not(:first-child):hover
+{color: #a62632}
+
+/*Theme color as a background*/
+.view .btn:hover,
+.view .buttons .btn:last-child,
+.descriptions .content #reviews .write .btn,
+.related .item .disc,
+.related .item .cont2 i:hover,
+.footer .btn
+{background-color: #a62632}
+
+
+
+.layer2{
+    position: absolute;
+    width:100%;
+    background-color: #000;
+    opacity: 0.4;
+    z-index: 999;
+    display: none
+}
+
+.toTop{
+    position: fixed;
+    bottom: 70px;
+    right:30px;
+    z-index: 99999;
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 0.7;
+    display: none;
+}
+
+.sale{padding: 10px;background-color: #e7d2d9}
+.sale h5{display: inline-block;margin-right: 20px}
+.sale .btn{color: white;background-color: #000}
+.sale .btn:hover{opacity: 0.8}
+.sale i{
+    position: absolute;
+    right: 50px;
+    top:20px;
+    opacity: 0.8;
+    cursor: pointer
+}
+.sale i:hover{opacity: 1}
+
+.welcome{padding: 10px 0}
+.welcome h6{margin-left: 20px}
+.welcome .dropdown{display: inline-block;margin-left: 20px;}
+.welcome .dropdown button{border: none;padding: 0}
+.welcome .dropdown button:hover,
+.welcome .open button,
+.welcome .dropdown button
+{background-color: transparent}
+.welcome .dropdown i{color: #888}
+.welcome .dropdown h6{display: inline-block}
+.welcome .dropdown ul{padding: 13px 0}
+.welcome .dropdown li{
+    padding: 0 10px;
+    cursor: pointer;
+    color: #888;
+    text-align: center
+}
+.welcome .dropdown hr{width:80%}
+
+.sep{margin-top: 0;margin-bottom: 0}
+
+.furnilife{padding-top: 20px}
+.furnilife h2{display: inline-block;font-family: 'Rubik', sans-serif;letter-spacing:-3}
+.furnilife h2 span{font-weight: bold}
+.furnilife h4{display: inline-block}
+.furnilife h6{font-weight: bold}
+.furnilife i:not(.noBorder){
+    border: 2px solid #DDD;
+    padding: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px
+}
+.furnilife .content{
+    display: inline-block;
+    width:calc(100% - 91px);
+    margin-right: 10px
+}
+.furnilife .content p{color: #888}
+.furnilife i.fa-shopping-cart{margin-left: 0}
+
+.navbar{background-color: white;font-family: 'Rubik', sans-serif;margin-bottom: 0}
+.navbar .navbar-right .dropdown .btn li
+{display: inline-block;padding: 10px 0}
+.navbar .navbar-right .dropdown .btn li a:hover
+{text-decoration: none}
+
+.navbar .navbar-right .dropdown .btn{border: none}
+.navbar .navbar-right .dropdown .btn i
+{color: #333;font-size: 13px}
+.navbar .navbar-right .dropdown-menu li a
+{background-color: transparent}
+.navbar .dropdown .btn{
+    background-color: transparent;
+    border-right:1px solid #EEE;
+    border-left:1px solid #EEE;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+}
+.navbar .dropdown span{font-size: 15px}
+.navbar .dropdown h5{
+    display: inline-block;
+    font-weight:bold;
+    letter-spacing: 1;
+    padding: 0px 95px 0px 3px  
+}
+.navbar .dropdown .dropdown-menu {color: #888;padding:15px 0px}
+.navbar .dropdown .dropdown-menu li{padding-left:  20px;cursor: pointer}
+.navbar .navbar-right li>a{color: black}
+.navbar textarea{
+    border:none;
+    margin: 0;
+    padding: 0px 20px;
+    height: 50px;
+    line-height: 50px;
+    border-left: 1px solid #EEE;
+    margin: 2px 10px;
+    color: #888;
+    background-color: transparent
+}
+.navbar textarea:focus{
+    border-right: 0 none #FFF;
+    border-top: 0 none #FFF;
+    border-bottom: 0 none #FFF;
+    overflow: hidden;
+    outline:none;
+}
+.navbar i.fa-search{
+    color: #888;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 11%
+}
+
+@media (max-width:1000px){
+    .navbar i.fa-search{
+        position: static
+    }
+}
+.navbar-toggle{z-index: 999}
+.navbar-toggle:focus,
+.navbar-toggle:hover,
+.navbar-toggle.active
+{background-color: transparent !important}
+.navbar.navbar-fixed-top{opacity: 0.8}
+
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .navbar .dropdown h5{padding: 0px 0px 0px 3px}
+    .navbar textarea{width:170px}
+    .navbar .navbar-right li>a{padding: 15px 5px}
+}
+
+
+.breadcrumb{background: transparent;margin-top: 10px}
+nav ~ hr{margin-top: 0}
+
+
+.view{margin-bottom: 20px}
+.view .im img{
+    width:90%;
+    margin-left: 5%;
+    height: 450px;
+    margin-top: 30px
+}
+.view .discr h2{font-weight: bold;letter-spacing: 1}
+.view .discr .stars i{color: #fcd839}
+.view .discr .stars>h5{display: inline-block;margin-left: 10px}
+.view p.lead{font-size: 14px;color: #555}
+.view .quantity {margin-bottom: 10px}
+.view .quantity h4,
+.view .quantity .count
+{display: inline-block}
+.view .count {
+    margin: 20px 0;
+    margin-left: 5%;
+    border: 1px solid #CCC;
+    display: inline-block;
+    padding: 0px 15px
+}
+.view .count h4{display: inline-block}
+.view .count h4:nth-child(2){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.view .count h4:first-child,
+.view .count h4:last-child
+{
+    color: #999;
+    cursor: pointer
+}
+.view .count h4:first-child:hover,
+.view .count h4:last-child:hover
+{color: black}
+
+.view .buttons .btn{
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -o-border-radius: 18px;
+    color: white;
+    margin-left: 3%;
+    padding:9px 30px;
+    margin-bottom: 10px
+}
+.view .buttons .btn:first-child
+{background-color: #2a5297}
+.view .buttons .btn:hover{opacity: 0.9}
+
+.view .far.fa-heart{color: #666;cursor: pointer}
+.view .fas.fa-heart{cursor: pointer}
+.view .browse{
+    display: inline-block;
+    color: #666;
+    margin-left: 5px;
+    cursor: pointer
+}
+
+.view .categ h5{
+    display: inline-block;
+    color: #666
+}
+.view .categ h5:first-child{font-weight: bold;letter-spacing: 1}
+
+.view .share{margin-top: 20px}
+.view .share i{
+    border: 1px solid #CCC;
+    width:40;
+    text-align: center;
+    padding: 11px 
+}
+.descriptions{margin-top: 20px;margin-bottom: 30px}
+.descriptions .topics{border: 1px solid #CCC}
+.descriptions .topics h4{
+    display: inline-block;
+    margin-left: 1%;
+    padding: 5px 2%;
+    color: #666;
+    cursor: pointer;
+    border-right:  1px solid #ccc;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+.descriptions .topics h4:last-child{border: none}
+.descriptions .topics h4:hover,
+.descriptions .topics h4.active
+{color: black}
+.descriptions .content{
+    border: 1px solid #CCC;
+    margin-top: 20px;
+    padding: 15px 25px
+}
+.descriptions .content>div:not(:first-child)
+{display: none}
+.descriptions .content #desc p.lead{
+    color: #999;
+    font-size: 17px;
+}
+.descriptions .content #reviews{
+    border:1px solid #CCC;
+    padding: 10px 30px;
+    margin-bottom: 20px
+}
+.descriptions .content #reviews h3{margin-bottom: 15px}
+.descriptions .content #reviews h5{margin-left: 15px}
+.descriptions .content #reviews h5:nth-child(3){
+    font-weight: bold;
+    cursor: pointer
+}
+
+.descriptions .content #reviews .write{display: none}
+.descriptions .content #reviews .write h5{
+    font-weight: bold;
+    letter-spacing: 1;
+    margin: 20px 0;
+}
+
+.descriptions .content #reviews .write input{
+    border:none;
+    border-bottom: 1px solid #CCC;
+    padding: 10px;
+    width:30%;
+    margin-bottom: 10px;
+}
+.descriptions .content #reviews .write i{
+    color: #666;
+    font-size: 6px
+}
+.descriptions .content #reviews .write h6{
+    margin-bottom: 14px;
+    margin-left: 0px;
+    display: inline-block
+}
+.descriptions .content #reviews .write .stars{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 20px
+}
+.descriptions .content #reviews .write .stars i{
+    font-size: 13px;
+    color:#fcd839;
+    cursor: pointer
+}
+.descriptions .content #reviews .write input:last-of-type,
+.descriptions .content #reviews .write textarea
+{display: block}
+
+.descriptions .content #reviews .write textarea{
+    border: 1px solid #CCC;
+    padding: 10px;
+    width:30%;
+    margin-bottom: 30px;
+    height:130px
+}
+
+@media (max-width:1000px){  /**SM & XS**/
+    .descriptions .content #reviews .write input,
+    .descriptions .content #reviews .write textarea{
+        width:90%
+    }
+    .descriptions .content #reviews .write h6{
+        margin-top: 20px
+    }
+}
+
+.descriptions .content #reviews .write .btn{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 15px
+}
+.descriptions .content #reviews .write .btn:hover{opacity: 0.9}
+.descriptions .content #reviews .thank h3
+{display: inline-block}
+.descriptions .content #reviews img{
+    width:100px 
+}
+.descriptions .content #comments h4{display: inline-block}
+.descriptions .content #comments i{cursor: pointer}
+.descriptions .content #comments .media{
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+}
+.descriptions .content #comments .media i
+{padding: 7px 10px;margin-left:5px}
+.descriptions .content #comments .media i:hover
+{background-color: #333 !important;}
+.descriptions .content #comments .discuss
+{margin-top: 10px}
+.descriptions .content #comments .discuss i{
+    font-size: 25px;
+    border: 1px solid #CCC;
+    border-radius: 50%;
+    -weblit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    padding: 10px;
+    color: white;
+    background-color: #CCC
+}
+.descriptions .content #comments .discuss input{
+    border:1px solid #CCC;
+    padding: 10px 10px 6px;
+    width:300px;
+    height:50px;
+}
+.descriptions .content #comments .login
+{margin-top: 10px}
+.descriptions .content #comments .login h5
+{display: inline-block;font-size: 18px;line-height: 40px}
+.descriptions .content #comments .login .media
+{margin-left: 5px}
+.descriptions .content #comments .login .media i{
+    border-radius: 50%;
+    -weblit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    padding: 10px 0;
+    width:35px;
+    text-align: center
+}
+.descriptions .content #chart td{
+    width:150px;
+    border: 1px solid #CCC;
+    padding: 15px;
+    padding-left: 10px;
+    color: #666
+}
+.descriptions .content #chart td:first-child{
+    width:310px
+}
+.descriptions .content #shipping h3{
+    font-weight: bold;
+    letter-spacing: -1;
+    font-family: 'Nunito', sans-serif;
+}
+.descriptions .content #shipping p.lead{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    color: #888
+}
+
+.related h3{
+    font-weight: bold;
+    border: 1px solid #CCC;
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding: 15px 25px
+}
+.related .row{
+    border: 1px solid #CCC;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.related .item{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left: 10px;
+    border-right: 1px solid #CCC;
+    padding-right:0px
+}
+.related .item.noBorder{border:none}
+.related .item .disc {
+    position: absolute;
+    left:30px;
+    color: white;
+    padding: 3px 10px;
+    border: 1px solid #a62632;
+    border-radius: 5px;
+    -wenkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px
+}
+.related .item i.fa-heart {
+    position: absolute;
+    right: 50px;
+    top:15px;
+    font-size: 18px;
+    color: #999;
+    cursor: pointer
+}
+.related .item img {
+    width:80%;
+    margin-left:10%;
+    height:300px
+}
+.related .item .cont{text-align: center}
+.related .item .cont h4:first-child{color:#333}
+.related .item .cont i{color: #fcd839}
+.related .item .cont h4.cross {
+    text-decoration: line-through;
+    display: inline-block;
+    color: #888
+}
+.related .item .cont h4.cross ~ h4 {display: inline-block}
+.related .item .cont2{
+    text-align: center;
+    margin-top: 30px;
+    display: none
+}
+.related .item .cont2 i{
+    color: #999;
+    border: 1px solid #EEE;
+    padding: 13px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+   -o- border-radius: 50%;
+    background-color: #EEE;
+    cursor: pointer
+} 
+.related .item .cont2 i:hover{color: white}
+
+.categitems{display: none}
+.categitems .container{
+    width:50%;
+    margin-left:25%;
+    position: absolute;
+    background-color: white;
+    z-index: 9999
+}
+.categitems img{
+    width:80%;
+    height:300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10%
+}
+.categitems h2{font-weight: bold;margin-top: 40px}
+.categitems .cont h4:first-child{color:#333}
+.categitems .cont i{color: #fcd839}
+.categitems .cont h4.cross {
+    text-decoration: line-through;
+    display: inline-block;
+    color: #888
+}
+.categitems .items .item .cont h4.cross ~ h4 {display: inline-block}
+.categitems .choose h4{font-weight: bold}
+.categitems .choose select{
+    width:80%;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.categitems .count {
+    margin: 20px 0;
+    border: 1px solid #CCC;
+    display: inline-block;
+    padding: 0px 15px
+}
+.categitems .count h4{display: inline-block}
+.categitems .count h4:nth-child(2){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.categitems .count h4:first-child,
+.categitems .count h4:last-child
+{
+    color: #999;
+    cursor: pointer
+}
+.categitems .count h4:first-child:hover,
+.categitems .count h4:last-child:hover
+{color: black}
+.categitems .btn{
+    margin-left: 20%;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -o-border-radius: 7px;
+    background-color: black;
+    color: white
+}
+.categitems i{
+    position: absolute;
+    right: 0;
+    top:-40px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: black;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 60px;
+    background-color: #e8e7ec;
+    padding: 30px;
+    color: #666
+}
+.footer h2{
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing:-3;
+    color: black
+}
+.footer h2 span{font-weight: bold}
+.footer h5{margin-top: 15px}
+.footer .media i{
+    border:1px solid #DDD;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;
+    background-color: #DDD;
+    width:35px;
+    margin-left: 8px;
+    color: #999;
+    margin-top: 10px;
+    cursor: pointer
+}
+.footer .row>div:not(:first-child) h5:first-child{
+    font-weight: bold;
+    letter-spacing: -1;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30px
+}
+.footer .info h5:not(:first-child),
+.footer .account h5:not(:first-child){
+    line-height: 2;
+    cursor: pointer
+}
+.footer .join h5:not(:first-child){line-height: 2}
+.footer input{
+    display: block;
+    margin: 30px 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #CCC;
+    width:80%;
+    padding: 10px 5px;
+    font-size: 16px
+}
+.footer .btn{padding: 10px 20px;color:white}
+.footer .btn:hover{opacity: 0.9}
+.footer hr{color: black;margin-bottom: 10px}
+.footer .copyright{color: #888}
+@media (max-width:1000px){  /**SM & XS**/
+    .footer .info,
+    .footer .account{
+        margin: 40px 0;
+    }
+    .footer .btn{margin-bottom: 30px}
+    .footer .join{text-align: center}
+}
